@@ -445,9 +445,9 @@ body {
     border: 2px solid transparent;
 }
 
-/* .catalog-item img:hover {
+.catalog-item img:hover {
     border: 2px solid #0183f8;
-} */
+}
 
 
 /*   NEWS   */
@@ -834,7 +834,10 @@ body {
 
         box-shadow: 0 0 3px 2px #b3afaf;
     }
-
+    
+    .catalog-item img:hover {
+        border: none;
+    }
 }
 
 @media (max-width: 550px) {
